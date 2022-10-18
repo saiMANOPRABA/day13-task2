@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to left top, #959aa3, #89acc3, #69c1da, #35d7e0, #12ebd2);
+}
+
+
+.header{
+  border: 2px solid aliceblue;
+  text-align: center;
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 400px;
+  border-radius: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+  width:auto;
+  height: 500px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+
+.bdr{
+  
+  border: 2px solid black;
+  margin:50px;
+}
+
+.card{
+  height: 150px;
+  width: 250px;
+  padding: 10px;
+  line-height: 30px;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+
+}
+.main{
+  text-align: center;
+  font-weight: bold;
+  text-decoration:underline;
+}
+
+img{
+  height:100px;
+  width: 100px;
+}
+
+
+
+.container1{
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  margin: 50px;
+  width: 100%;
+}
+.container2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  gap:50px;
+}
+
+
+button{
+  width: 80px;
+  height: 20px;
+  background-color: #fdfbff;
+  border: none;
+  border-radius: 5px;
+}
+
+.button{
+  width: 80px;
+  height: 20px;
+  background-color: #fdfbff;
+  border: none;
+  border-radius: 5px;
+}
+.inside{
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+gap: 15px;
+}
